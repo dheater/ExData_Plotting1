@@ -1,3 +1,11 @@
+##
+Evaluation and execution
+
+The source code is in the `src` directory. Plots are in the `figure` directory. Look in these two directories for the items to evaluate.
+
+For efficiency, and additional source file: `read_data.R` is used to read and subset the data. That subsetted data is then passed into the plot functions. This is done to avoid re-reading the data for every plot.
+
+
 ## Introduction
 
 This assignment uses data from
